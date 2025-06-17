@@ -1,0 +1,15 @@
+@url_base = http://localhost:5003/api/categoria
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTA5MjQxfQ.I_7IvZFE6OYaMHgIFQtB552B5KznJjhoph5Jp4T_pwQ
+
+### Cadastrar categoria
+POST {{url_base}}/cadastrar
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTE3Njc0fQ.FmeEVbH_yjdtJpfaR7Jx0tBOlfSgHhdnYi8VAZZUy-M
+Content-Type: application/json
+
+{
+    "nome" : "Bebidas"
+}
+
+### Listar categorias
+GET {{url_base}}/listar
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTE3Njc0fQ.FmeEVbH_yjdtJpfaR7Jx0tBOlfSgHhdnYi8VAZZUy-M
