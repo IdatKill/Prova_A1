@@ -3,12 +3,12 @@
 
 ### Cadastrar categoria
 POST {{url_base}}/cadastrar
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTE3Njc0fQ.FmeEVbH_yjdtJpfaR7Jx0tBOlfSgHhdnYi8VAZZUy-M
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTIzMTUzfQ.Z-IAtzwGycxTsxJHTWBl0JxJARtFtDTNXbjq39UyZLc
 Content-Type: application/json
 
 {
     "nome" : "Bebidas",
-    "categoriaId" : 1
+    "categoriaId" : "7"
 }
 
 ### Listar categorias

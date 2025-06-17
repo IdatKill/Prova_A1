@@ -1,11 +1,9 @@
 @url_base = http://localhost:5003/api/comentario
-@item_id = 1
-
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTIxNzY5fQ.qAxQet-JW92xT-NR8Q8GRrlTiqUbAe-AAKGtHUcD-OQ
+@item_id = 14
 
 ### Cadastrar comentário
 POST {{url_base}}/cadastrar
-Authorization: Bearer {{token}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTIzMTUzfQ.Z-IAtzwGycxTsxJHTWBl0JxJARtFtDTNXbjq39UyZLc
 Content-Type: application/json
 
 {
@@ -15,8 +13,10 @@ Content-Type: application/json
 
 ### Listar comentários por item
 GET {{url_base}}/listar/{{item_id}}
-Authorization: Bearer {{token}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTIzMTUzfQ.Z-IAtzwGycxTsxJHTWBl0JxJARtFtDTNXbjq39UyZLc
+Content-Type: application/json
 
 ### Excluir um comentário 
-DELETE {{url_base}}/excluir/1
-Authorization: Bearer {{token}}
+DELETE {{url_base}}/excluir/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtIiwiZXhwIjoxNzUwMTIzMTUzfQ.Z-IAtzwGycxTsxJHTWBl0JxJARtFtDTNXbjq39UyZLc
+Content-Type: application/json

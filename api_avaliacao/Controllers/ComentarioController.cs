@@ -35,6 +35,7 @@ namespace api_avaliacao.Controllers
         }
 
         [HttpPost("cadastrar")]
+        [Authorize]
         public IActionResult Cadastrar([FromBody] Comentario comentario)
         {
             var usuarioId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
