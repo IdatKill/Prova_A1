@@ -116,3 +116,4 @@ C:\Users\Logcomex\Downloads\Prova_A1\api_avaliacao\obj\Debug\net8.0\refint\api_a
 C:\Users\Logcomex\Downloads\Prova_A1\api_avaliacao\obj\Debug\net8.0\api_avaliacao.pdb
 C:\Users\Logcomex\Downloads\Prova_A1\api_avaliacao\obj\Debug\net8.0\api_avaliacao.genruntimeconfig.cache
 C:\Users\Logcomex\Downloads\Prova_A1\api_avaliacao\obj\Debug\net8.0\ref\api_avaliacao.dll
+C:\Users\Logcomex\Downloads\Prova_A1\api_avaliacao\obj\Debug\net8.0\api_avaliacao.sourcelink.json
